@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 image:
-  repository: gcr.io/jenkinsxio/prow 
+  repository: 9.46.76.93:5000/jenkinsxio/prow 
   tag: v20190911-5887de4
 
 deck:
@@ -47,7 +47,7 @@ echotest:
 pipelinerunner:
   enabled: false
   image:
-    repository: gcr.io/jenkinsxio/builder-maven
+    repository: 9.46.76.93:5000/jenkinsxio/builder-maven
     tag: 0.1.785
   imagePullPolicy: IfNotPresent
   terminationGracePeriodSeconds: 180
